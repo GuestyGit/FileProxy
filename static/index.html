@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>ServerSelect</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #431745, #172116);
+        color: white;
+        font-family: 'Custom Font', sans-serif;
+      }
+    </style>
+    <script>
+      function redirect() {
+        var password = prompt("Enter your password:");
+        if (password == "fartbubble")/* Enter a custom password here */{
+          window.location.href = "./uv.html";
+        } else if (password == "rafeprivate")/* Cool password that only you know that has private stuff or whatever */ {
+          window.location.href = "./main/priv.html";
+        } else if (password == "fartbubbles") {
+          window.location.href = "./uv.html";
+        } else {
+          alert("Incorrect password");
+        }
+      }
+    </script>
+  </head>
+  <body onload="redirect()">
+    <center><h1 style="color: Red">!!WARNING!!</h1style="color: Red"></center>
+    <center><img src="https://screenshare.pics/image.php?id=0PZHKF.png" alt="Trulli" width="250" height="250"></center>
+    <center><p style="color: lightgreen">Your IP is being logged If you made a mistake refresh the page to retry</p></center>
+  <center><button onClick="window.location.reload();">Refresh Page</button></center>
+    <center><p style="color: blueviolet">discord.gg/CvxBQQdXhV</p></center>
+    <center><p style="color: Orange"> Powered by Cloudflare</p></center>
+    <center><p style="color: grey"> Simple</p></center>
+  </body>
+</html>
