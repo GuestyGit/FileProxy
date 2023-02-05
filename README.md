@@ -1,3 +1,5 @@
 # FileProxy
 
-Ready to deploy README.md coming soon
+Deploy Tutorial coming soon
+(Replit Supported)
+(Made In replit)
